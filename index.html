@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagem de Incentivo</title>
+    <link rel="stylesheet" href="css/classes.css">
+    <style>
+        #segunda-imagem {
+            display: none; /* Oculta a imagem inicialmente */
+        }
+    </style>
+</head>
+<body>
+    <div class="vartext">você só tem uma chance</div>
+    <br>
+
+    <h1 class="linha">Mesmo cansado de se esforçar</h1>
+    <center>
+        <img src="https://th.bing.com/th/id/R.80f815446cf3c88a34100808db9b5ab1?rik=nMGQ4ORsCLfh2w&pid=ImgRaw&r=0" 
+        width="300" height="200" alt="Imagem de motivação">
+    </center>
+
+    <h1 class="linha">Você pode se divertir tentando</h1>
+
+    <center>
+         
+        <button onclick="hippo()" 
+        style="background-color: rgb(255, 8, 0); 
+        color: black;">lutar</button>
+    </center>
+
+    <br>
+    
+    <center>
+        <img id="luta" src="https://th.bing.com/th/id/OIP.4p_PkyajhWLm8zZ3zagoEgHaFP?w=237&h=180&c=7&r=0&o=5&cb=iwc2&pid=1.7" 
+        width="300" height="200" alt="Imagem de diversão">
+    </center>
+
+    <br><br>
+
+    <div class="vartext">mete o pé na porta!</div>
+    <br><br><br>
+    <div class="author">BY EMO</div>
+
+    <script>
+        function hippo() {
+            document.getElementById("luta").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
